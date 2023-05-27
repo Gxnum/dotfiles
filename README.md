@@ -21,3 +21,7 @@ sudo chown -R USER:USER ./yay-git
 cd yay-git
 makepkg -si`
 ```
+# Installing dependencies
+```bash
+
+```
