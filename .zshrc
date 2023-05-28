@@ -173,6 +173,7 @@ alias rm='rm -vr -rf'
 # alias for killall
 alias kt='killall teams'
 alias kd='killall Discord'
+alias alacritty='alacritty --config-file ~/.config/hypr/alacritty/alacritty.yml'
 
 #startup
 neofetch
