@@ -192,7 +192,7 @@
   	"exec": "checkupdates | wc -l",
    	"exec-if": "[[ $(checkupdates | wc -l) ]]",
    	"interval": 10800,
-   	"on-click": "alacritty --class update -T update -o font_size=13 -e yay -Syuq --noconfirm; pkill -RTMIN+8 waybar && notify-send 'Update Complete'"
+   	"on-click": "alacritty --config-file ~/.config/hypr/alacritty/alacritty.yml --class update -T update -o font_size=13 -e yay -Syuq --noconfirm; pkill -RTMIN+8 waybar && notify-send 'Update Complete'"
   },
 	"battery": {
 		"states": {
