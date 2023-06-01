@@ -9,11 +9,11 @@ Desktop:
 ![image](https://github.com/Gxnum/dotfiles/assets/65645307/e39d3d98-9d28-4486-b31e-f46834e200ac)
 
 ## What I use
-- OS: [Arco linux](https://www.arcolinuxd.com/hyprland/) ([bedrock linux](https://bedrocklinux.org/) now)
+- OS: [Arch linux](https://archlinux.org) ([bedrock linux](https://bedrocklinux.org/) now)
 - Screenshots: [grimblast](https://github.com/hyprwm/contrib#grimblast)
 - Terminal: [alacritty](https://alacritty.org/)
 - Shell: [oh-my-zsh](https://ohmyz.sh/)
-- Browser: [microsoft-edge](https://www.microsoft.com/en-us/edge?form=MA13FJ&exp=e00)
+- Browser: [vivaldi](https://vivaldi.com)
 - Wayland Compositor: [Hyprland](https://hyprland.org/)
 - Editor: [Neovim](https://neovim.io/) ([AstroNvim](https://astronvim.com/))
 - GTK+ and Qt theme: [Orchis](https://github.com/vinceliuice/Orchis-theme) [Dark](https://github.com/vinceliuice/Orchis-kde)
@@ -66,7 +66,7 @@ makepkg -si`
 ## Installing dependencies (yay)
 If you are using a different AUR helper, just change `yay -S` with your AUR helper and it's install flag
 ```bash
-yay -S hyprland mako neovim bashtop pulseaudio graphite-kde-theme-git graphite-gtk-theme arcolinux-candy-beauty-git bibata-cursor-theme-bin tff-jetbrains-mono-nerd neofetch waybar pavucontrol fzf mpv libqalculate microsoft-edge-stable-bin alacritty grimblast-git grim swaybg swayidle ly zsh dolphin pamixer 
+yay -S hyprland mako neovim bashtop pulseaudio graphite-kde-theme-git graphite-gtk-theme arcolinux-candy-beauty-git bibata-cursor-theme-bin tff-jetbrains-mono-nerd neofetch waybar pavucontrol fzf mpv libqalculate microsoft-edge-stable-bin alacritty grimblast-git grim swaybg swayidle ly zsh dolphin pamixer ttf-ms-fonts ttf-apple-fonts kvantum lxappearance
 ```
 ## Installing Oh-My-Zsh
 "Oh-My-Zsh is a delightful, open source, community-driven framework for managing your Zsh configuration. It comes bundled with thousands of helpful functions, helpers, plugins and themes" (I use agnoster)
