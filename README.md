@@ -11,6 +11,7 @@ Desktop:
 ## What I use
 - OS: [Arco linux](https://www.arcolinuxd.com/hyprland/) ([bedrock linux](https://bedrocklinux.org/) now)
 - Screenshots: [grimblast](https://github.com/hyprwm/contrib#grimblast)
+- Notifications: [mako](https://github.com/emersion/mako)
 - Terminal: [alacritty](https://alacritty.org/)
 - Shell: [oh-my-zsh](https://ohmyz.sh/)
 - oh-my-zsh theme: [powerlevel10k](https://github.com/romkatv/powerlevel10k)
