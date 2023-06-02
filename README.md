@@ -15,6 +15,7 @@ Desktop:
 - Shell: [oh-my-zsh](https://ohmyz.sh/)
 - oh-my-zsh theme: [powerlevel10k](https://github.com/romkatv/powerlevel10k)
 - Browser: [vivaldi](https://vivaldi.com)
+- Files Manager: [Dolphin](https://apps.kde.org/dolphin/)
 - Wayland Compositor: [Hyprland](https://hyprland.org/)
 - Editor: [Neovim](https://neovim.io/) ([AstroNvim](https://astronvim.com/))
 - GTK+ and Qt theme: [Orchis](https://github.com/vinceliuice/Orchis-theme) [Dark](https://github.com/vinceliuice/Orchis-kde)
