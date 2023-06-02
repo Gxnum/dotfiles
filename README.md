@@ -17,7 +17,7 @@ Desktop:
 - Browser: [vivaldi](https://vivaldi.com)
 - Files Manager: [Dolphin](https://apps.kde.org/dolphin/)
 - Wayland Compositor: [Hyprland](https://hyprland.org/)
-- Editor: [Neovim](https://neovim.io/) ([AstroNvim](https://astronvim.com/))
+- Editor: [Neovim](https://neovim.io/) ([AstroNvim](https://astronvim.com/) {This repository does not have AstroNvim installed})
 - GTK+ and Qt theme: [Orchis](https://github.com/vinceliuice/Orchis-theme) [Dark](https://github.com/vinceliuice/Orchis-kde)
 - Icon theme: [ArcoLinux Candy Beauty](https://github.com/arcolinux/arcolinux-candy-beauty)
 - Mouse cursor: [Bibata-Modern-Ice](https://www.gnome-look.org/p/1914825/)
@@ -75,8 +75,3 @@ font:
     family: "MesloLGS NF"
 ```
 then reload Alacritty or type `zsh`
-## Installing AstroNvim
-"AstroNvim is an aesthetic and feature-rich neovim config that is extensible and easy to use with a great set of plugins"
-```bash
-git clone --depth 1 https://github.com/AstroNvim/AstroNvim ~/.config/nvim
-```
