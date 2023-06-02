@@ -1,6 +1,8 @@
 # Intro
 This repo contains my dotfiles for my rice. If you want to replicate my desktop, you ought to follow the guide.
-
+u/Zeioth made the Discord animations btw, they rock hard!
+## To-Do
+Discord files, configs and descriptions.
 Tiling mode:
 ![image](https://github.com/Gxnum/dotfiles/assets/65645307/8d90edcb-27a6-42b6-892b-6cd2c69e96b4)
 Floating mode:
@@ -56,7 +58,7 @@ makepkg -si`
 ## Installing dependencies (yay)
 If you are using a different AUR helper, just change `yay -S` with your AUR helper and it's install flag
 ```bash
-yay -S hyprland mako neovim bashtop pulseaudio orchis-kde-theme-git orchis-theme-git arcolinux-candy-beauty-git bibata-cursor-theme-bin ttf-jetbrains-mono-nerd neofetch waybar pavucontrol fzf mpv libqalculate alacritty grimblast-git grim swaybg swayidle ly zsh dolphin pamixer ttf-ms-fonts ttf-apple-emoji kvantum-qt5-git kvantum-qt6-git lxappearance qt5ct rofi ttf-jetbrains-mono btop
+yay -S hyprland mako neovim bashtop pulseaudio orchis-kde-theme-git orchis-theme-git arcolinux-candy-beauty-git bibata-cursor-theme-bin ttf-jetbrains-mono-nerd neofetch waybar pavucontrol fzf mpv libqalculate alacritty grimblast-git grim swaybg swayidle ly zsh dolphin pamixer ttf-ms-fonts ttf-apple-emoji kvantum-qt5-git kvantum-qt6-git lxappearance qt5ct rofi ttf-jetbrains-mono btop betterdiscord-installer Discord
 ```
 ## Installing Oh-My-Zsh
 "Oh-My-Zsh is a delightful, open source, community-driven framework for managing your Zsh configuration. It comes bundled with thousands of helpful functions, helpers, plugins and themes"
