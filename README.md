@@ -1,8 +1,6 @@
 # Intro
 This repo contains my dotfiles for my rice. If you want to replicate my desktop, you ought to follow the guide.
 
-## To-Do
-Discord files, configs and descriptions.
 Tiling mode:
 ![image](https://github.com/Gxnum/dotfiles/assets/65645307/8d90edcb-27a6-42b6-892b-6cd2c69e96b4)
 Floating mode:
@@ -27,7 +25,7 @@ Desktop:
 
 # Installation guide
 ## Installing bedrock linux (optional)
-Assuming you want the AUR in your system, despite it not being an arch-based distro, or not having pacman:
+Assuming you want the AUR in your system, despite it not being an arch-based distro:
 ```bash
 wget https://github.com/bedrocklinux/bedrocklinux-userland/releases/download/0.7.28/bedrock-linux-0.7.28-x86_64.sh
 sh bedrock-linux-0.7.28-x86_64.sh --hijack
@@ -39,11 +37,20 @@ brl fetch arch
 sudo pacman -Syyuv
 ```
 ## Cloning this github repo
-There is only one little step into cloning my configurations to your device:
+**There are 2 ways into implimenting the dotfiles in your home path**
+1st way} Clone this github repository to your home path, then move everything inside the dotfiles directory:
 ```bash
-cd ~/
 git clone https://github.com/Gxnum/dotfiles/
-
+mv ~/dotfiles/.config ~/
+mv ~/dotfiles/alacritty ~/
+mv ~/dotfiles/.zshrc ~/
+rm -rf -vr ~/dotfiles
+```
+2nd way (*not recommended*)} Clone this github repository to your /home/ directory, then rename `dotfiles` to your user:
+```bash
+cd /home
+sudo git clone https://github.com/Gxnum/dotfiles/
+sudo mv /home/dotfiles /home/[instert your user]
 ```
 ## Installing AUR helper yay (optional)
 Of course, you can install any other AUR helper, but I recommend yay:
@@ -77,4 +84,4 @@ font:
   normal:
     family: "MesloLGS NF"
 ```
-then reload Alacritty or type `zsh`
+then reload Alacritty or type `zsh`, this will put you into the `p10k configure`.
