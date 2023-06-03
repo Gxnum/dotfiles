@@ -1,6 +1,6 @@
 # Intro
 This repo contains my dotfiles for my rice. If you want to replicate my desktop, you ought to follow the guide.
-u/Zeioth made the Discord animations btw, they rock hard!
+
 ## To-Do
 Discord files, configs and descriptions.
 Tiling mode:
