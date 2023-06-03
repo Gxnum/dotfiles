@@ -1,0 +1,17 @@
+{
+    "version": "1.9.2",
+    "drawerStates": {
+        "settings": {
+            "addons": true,
+            "customcss": true,
+            "editor": true,
+            "window": true,
+            "developer": true
+        }
+    },
+    "addonlistControls": {
+        "plugin": {
+            "view": "grid"
+        }
+    }
+}
