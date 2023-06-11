@@ -186,6 +186,7 @@ alias kd='killall Discord'
 alias alacritty='alacritty'
 
 #startup
+wal -q -i ~/.config/hypr/bg/wal.png
 neofetch
 source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme
 
